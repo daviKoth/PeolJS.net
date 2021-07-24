@@ -1,0 +1,3 @@
+const Commit = requires("git.js")
+const nerdfile = Commit.InLine()
+nerdfile.progshClone
